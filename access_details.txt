@@ -58,11 +58,28 @@ DBCS instance  (Alpha02A-DBCS) (creada en AD2)
 database name: sgd
 admin username: SYS
 password: 1Q2w3e12C_#
-ip publica: 
+ip publica: 129.213.25.193
 puerto: 1521
-nombre del servicio: sgd_pdb1.sub08110258560.vcnulimaw1.oraclevcn.com
+nombre del servicio: sgd_iad2cv.sub08130101351.vcnulimaw2.oraclevcn.com
 
 
+
+---------------------------------------------------------------------------------------------------------
+
+W3
+
+Cloud Account: snmpe3
+user: alejandro.jeri@oracle.com
+password: $5^7*9Oiuyt1234
+
+
+DBCS instance  (Alpha03A-DBCS)
+database name: sgd
+admin username: SYS
+password: 1Q2w3e12C_#
+ip publica: 129.213.25.193
+puerto: 1521
+nombre del servicio: sgd_iad2cv.sub08130101351.vcnulimaw2.oraclevcn.com
 
 
 
