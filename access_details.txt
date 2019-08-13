@@ -1,0 +1,86 @@
+W1
+
+username:
+alejandro.jeri@oracle.com
+password:
+Palomino1997
+cloud account:
+ulima
+
+
+username:
+junior.palomino@oracle.com
+password:
+Palomino1997
+cloud account:
+ulima
+
+
+bucket name: bucket-ulima-w1
+namespace: idde4eyyhv7l
+https://swiftobjectstorage.us-ashburn-1.oraclecloud.com/v1/idde4eyyhv7l/bucket-ulima-w1
+username: oracleidentitycloudservice/junior.palomino@oracle.com
+token: Gy8r1hxY#E8zY1fk[OAJ
+
+
+DBCS instance  (Alpha01A-DBCS)
+database name: sgd
+admin username: SYS
+password: 1Q2w3e12C_#
+ip publica: 129.213.163.61
+puerto: 1521
+nombre del servicio: sgd_pdb1.sub08110258560.vcnulimaw1.oraclevcn.com
+
+
+java cloud service instance (Alpha01A-JCS)
+username: weblogic
+password: a1Q2w3e12C_#
+
+
+
+
+
+default PDB (OCI): SGD_PDB1
+default PDB (OCI classic): PDB1
+PDB (pluggable database): portable collection of schemas, schemas objects, and non-schema objects that appear to an Oracle Net client as a separate database.
+
+
+---------------------------------------------------------------------------------------------------------
+
+W2
+
+Cloud Account: snmep4
+user: alejandro.jeri@oracle.com
+password: $5^7*9Oiuyt1234
+
+
+DBCS instance  (Alpha02A-DBCS) (creada en AD2)
+database name: sgd
+admin username: SYS
+password: 1Q2w3e12C_#
+ip publica: 
+puerto: 1521
+nombre del servicio: sgd_pdb1.sub08110258560.vcnulimaw1.oraclevcn.com
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

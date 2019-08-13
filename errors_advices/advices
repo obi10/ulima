@@ -1,0 +1,5 @@
+Seguir el siguiente paso a paso para crear un DBCS
+https://www.oracle.com/technetwork/es/articles/cloudcomp/recursos-oci-para-paas-5440674-esa.html
+Al crear JCS, para que aparezca los subnets agregar la siguiente politica:
+Allow service PSM  to inspect vcns in compartment <compartment_name>
+

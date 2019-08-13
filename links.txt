@@ -1,0 +1,23 @@
+Prerequisites for Oracle Platform Services on Oracle Cloud Infrastructure
+https://docs.cloud.oracle.com/iaas/Content/General/Reference/PaaSprereqs.htm#prereqs
+About Database Deployments in Oracle Cloud Infrastructure
+https://docs.oracle.com/en/cloud/paas/database-dbaas-cloud/csdbi/db-deployments-oci.html
+Creating a Customized Database Deployment
+https://docs.oracle.com/en/cloud/paas/database-dbaas-cloud/csdbi/create-db-deployment.html
+Backing Up a Database to Oracle Cloud Infrastructure Object Storage
+https://docs.cloud.oracle.com/iaas/Content/Database/Tasks/backingupOS.htm
+Understanding Object Storage Namespaces
+https://docs.cloud.oracle.com/iaas/Content/Object/Tasks/understandingnamespaces.htm
+Oracle Cloud Infrastructure Object Storage FAQ
+https://cloud.oracle.com/storage/object-storage/faq
+
+About Creating an Oracle Java Cloud Service Instance
+https://docs.oracle.com/en/cloud/paas/java-cloud/jscug/creating-oracle-java-cloud-service-instance.html#GUID-31F00F2C-221F-4069-8E8A-EE48BFEC53A2
+Administering Oracle Java Cloud Service (Importante)
+https://docs.oracle.com/en/cloud/paas/java-cloud/jscug/instances-oracle-cloud-infrastructure.html
+Create an Oracle Database Cloud Service Database Deployment
+https://docs.oracle.com/en/cloud/paas/java-cloud/jscug/create-database.html#GUID-0A0AFE33-307F-4993-B6E9-0B1137389DDE
+
+
+workshop (required VPN connection)
+http://innovate.us.oracle.com:81/opcworkshops/allpage.html

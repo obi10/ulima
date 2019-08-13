@@ -1,0 +1,49 @@
+11-ago-2019 19H23' UTC	Activity Submitted
+11-ago-2019 19H23' UTC	Activity Started
+11-ago-2019 19H23' UTC	Started operation to create service [Alpha01A-JCS] in identity domain [idcs-5058eda6c1194bdfbb28a9bd1232c308].
+11-ago-2019 19H23' UTC	Creating resources [alpha01a-jcs-lb-1,alpha01a-jcs-wls-2,alpha01a-jcs-wls-1] for service [Alpha01A-JCS].
+11-ago-2019 19H28' UTC	Completed creating service [Alpha01A-JCS] resources in domain [idcs-5058eda6c1194bdfbb28a9bd1232c308].
+11-ago-2019 19H33' UTC	Started operation to check provisioning status on the VMs for [OTD]
+11-ago-2019 19H33' UTC	Started operation to check provisioning status on the VMs for [WLS]
+11-ago-2019 19H38' UTC	Provisioning Succeeded on hosts: alpha01a-jcs-lb-1
+11-ago-2019 19H40' UTC	Service has returned the following error(s) for service component [WLS]: [<JCS-ERR-20426> : Provisioning failed on host(s) alpha01a-jcs-wls-1,alpha01a-jcs-wls-1 Check logs identified the following error(s) in log /var/log/chef.log on host alpha01a-jcs-wls-1: [[2019-08-11T19:39:04+00:00] DEBUG: Re-raising exception: Mixlib::ShellOut::ShellCommandFailed - bash[validate_DB_connectivity] (wlss::initial line 224) had an error: Mixlib::ShellOut::ShellCommandFailed: Expected process to exit with [0], but received '3' ;[2019-08-11T19:39:04+00:00] FATAL: Chef::Exceptions::ChildConvergeError: Chef run process exited unsuccessfully (exit code 1) ];Check logs identified the following error(s) in log /u01/app/oracle/tools/paas/state/logs/Alpha01A-JCS_provisioning.log on host alpha01a-jcs-wls-1: [<JCS-ERR-20027> : <Cannot establish connection using connect string '//sgd-host-scan.sub08110258560.vcnulimaw1.oraclevcn.com:1521/PDB1.sub08110258560.vcnulimaw1.oraclevcn.com' and userName 'SYS as sysdba'. Reason: 'Listener refused the connection with the following error:ORA-12514, TNS:listener does not currently know of service requested in connect descriptor ]].
+11-ago-2019 19H40' UTC	Provisioning of component [OTD] succeeded.
+11-ago-2019 19H40' UTC	PSM-LCM-01101 Unable to provision service. One or more components could not be configured. See additional errors for more details.
+11-ago-2019 19H40' UTC	The service creation failed in attempt [1] out of [2]. The failed service and its resources will be cleaned up before retrying the service creation.
+11-ago-2019 19H42' UTC	Submitted job to remove failed service.
+11-ago-2019 19H42' UTC	Started operation to delete service [Alpha01A-JCS] in domain [idcs-5058eda6c1194bdfbb28a9bd1232c308].
+11-ago-2019 19H47' UTC	PSM-LSM-05008 Unable to start remote execution of service operation. One or more service nodes may be inaccessible. Check that service node(s) are accessible.
+11-ago-2019 19H47' UTC	Successfully removed service resources.
+11-ago-2019 19H52' UTC	The service creation will be retried after [5] minutes
+11-ago-2019 19H52' UTC	Completed deletion of service [Alpha01A-JCS] in domain [idcs-5058eda6c1194bdfbb28a9bd1232c308].
+
+posibles causas: segun 'DEBUG: Re-raising exception: Mixlib::ShellOut::ShellCommandFailed - bash[validate_DB_connectivity]' se da a entender que el error tiene que ver con la base de datos. Al usar una base de datos 12c, se requiere el ingreso de PDB (pluggable database).
+default PDB name: SGD_PDB1 (notar que SGD tiene que ver con el nombre de la base de datos)
+
+02-ago-2019 17H00' UTC	Activity Submitted
+02-ago-2019 17H00' UTC	Activity Started
+02-ago-2019 17H00' UTC	Started operation to create service [sgdwl] in identity domain [idcs-ebdd27b23fda49a09a50b84ad422d7ec].
+02-ago-2019 17H00' UTC	Creating resources [sgdwl-lb-1,sgdwl-wls-1,sgdwl-wls-2] for service [sgdwl].
+02-ago-2019 18H00' UTC	Compute resource creation timed out after 60 minutes. Compute Error: (400, LimitExceeded, false) The following service limits were exceeded in AD iad-ad-1: vm-standard2-1-count. Request a service limit increase from the service limits page in the console. (opc-request-id: 12E859B595A1431DAF698D85EDEA4B0F/8FC891485DDF25C47D0EA879A8D2E9B5/05B1E4A8DCD1413524EE9B0D26B6F76F)
+02-ago-2019 18H00' UTC	The service creation failed in attempt [1] out of [2]. The failed service and its resources will be cleaned up before retrying the service creation.
+02-ago-2019 18H00' UTC	Submitted job to remove failed service.
+02-ago-2019 18H00' UTC	Started operation to delete service [sgdwl] in domain [idcs-ebdd27b23fda49a09a50b84ad422d7ec].
+02-ago-2019 18H00' UTC	Successfully removed service resources.
+02-ago-2019 18H03' UTC	The service creation will be retried after [5] minutes
+02-ago-2019 18H03' UTC	Completed deletion of service [sgdwl] in domain [idcs-ebdd27b23fda49a09a50b84ad422d7ec].
+02-ago-2019 18H09' UTC	Activity Started
+02-ago-2019 18H09' UTC	Started operation to create service [sgdwl] in identity domain [idcs-ebdd27b23fda49a09a50b84ad422d7ec].
+02-ago-2019 18H09' UTC	Creating resources [sgdwl-lb-1,sgdwl-wls-1,sgdwl-wls-2] for service [sgdwl].
+02-ago-2019 19H09' UTC	Compute resource creation timed out after 60 minutes. Compute Error: (400, LimitExceeded, false) The following service limits were exceeded in AD iad-ad-1: vm-standard2-1-count. Request a service limit increase from the service limits page in the console. (opc-request-id: C57B517F30C24139B1D9707B649A1AC7/B6D275DA1F7F4F99F05DD3D86CAE684C/DD232BD3FFFA050D33DE1E16265DDD50)
+02-ago-2019 19H10' UTC	Submitted job to remove failed service.
+02-ago-2019 19H10' UTC	Started operation to delete service [sgdwl] in domain [idcs-ebdd27b23fda49a09a50b84ad422d7ec].
+02-ago-2019 19H10' UTC	Successfully removed service resources.
+02-ago-2019 19H13' UTC	Completed deletion of service [sgdwl] in domain [idcs-ebdd27b23fda49a09a50b84ad422d7ec].
+02-ago-2019 19H13' UTC	Activity Ended
+
+solucion: Se debe ir a 'Limites de recursos' y verificar las cantidades de los diferentes shapes habilitadas para cada dominio
+
+
+
+
+

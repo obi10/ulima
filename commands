@@ -1,0 +1,8 @@
+access DBCS
+ssh -o ServerAliveInterval=60 -i ulima_key opc@129.213.163.61 -L 1521:129.213.163.61:1521
+access JCS
+ssh -o ServerAliveInterval=60 -i ulima_key opc@150.136.226.247 -L 9001:150.136.226.247:9001
+
+scp -i essalud_key root@150.136.226.247:/u01/data/domains/sgdwl-AD_domain/servers/sgdwl-AD_adminserver/upload/AlphaProductCatalog.war /home/junicode/Downloads/
+
+

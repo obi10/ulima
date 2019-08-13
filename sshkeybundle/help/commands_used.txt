@@ -1,0 +1,12 @@
+create a new key pair for authentication
+puttygen -t rsa -C "ulima key" -o essalud_key.ppk
+check the fingerprint
+puttygen -l  ulima_key.ppk
+
+exporting a private key to tectia ssh or openssh
+puttygen ulima_key.ppk -O private-openssh -o ulima_key
+generate the public key only (valid type) (added to the server)
+puttygen ulima_key.ppk -O public-openssh -o ulima_key.pub
+
+key that have to share with the client: ulima_key.ppk
+
