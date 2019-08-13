@@ -54,11 +54,11 @@ user: alejandro.jeri@oracle.com
 password: $5^7*9Oiuyt1234
 
 
-DBCS instance  (Alpha02A-DBCS) (creada en AD2)
+DBCS instance  (Alpha02-DBCS-12c)
 database name: sgd
 admin username: SYS
 password: 1Q2w3e12C_#
-ip publica: 129.213.25.193
+ip publica: 
 puerto: 1521
 nombre del servicio: sgd_iad2cv.sub08130101351.vcnulimaw2.oraclevcn.com
 
@@ -73,11 +73,11 @@ user: alejandro.jeri@oracle.com
 password: $5^7*9Oiuyt1234
 
 
-DBCS instance  (Alpha03A-DBCS)
+DBCS instance  (Alpha-snmep4-DBCS)
 database name: sgd
 admin username: SYS
 password: 1Q2w3e12C_#
-ip publica: 129.213.25.193
+ip publica: 
 puerto: 1521
 nombre del servicio: sgd_iad2cv.sub08130101351.vcnulimaw2.oraclevcn.com
 
